@@ -3,7 +3,7 @@ module bot-template
 go 1.20
 
 require (
-	github.com/disgoorg/disgo v0.16.7
+	github.com/disgoorg/disgo v0.16.8
 	github.com/disgoorg/log v1.2.1
 )
 
