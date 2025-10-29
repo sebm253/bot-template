@@ -15,7 +15,7 @@ import (
 )
 
 func main() {
-	logger := tint.NewHandler(os.Stdout, &tint.Options{
+	logger := tint.NewHandler(os.Stderr, &tint.Options{
 		Level: slog.LevelInfo,
 	})
 	slog.SetDefault(slog.New(logger))
