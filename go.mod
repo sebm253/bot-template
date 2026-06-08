@@ -3,7 +3,7 @@ module bot-template
 go 1.26
 
 require (
-	github.com/disgoorg/disgo v0.19.4
+	github.com/disgoorg/disgo v0.19.6
 	github.com/lmittmann/tint v1.1.3
 )
 
